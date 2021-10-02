@@ -1,0 +1,40 @@
+.full{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.fooder-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    border: 1px solid lightgray;
+    margin-right: 5px;
+    
+}
+.fooder{
+    background-color: aquamarine;
+    border: 2px solid;
+    margin: 10px;
+    padding: 5px;
+    color: rgb(185, 83, 83);
+    border-radius: 20px;
+    height: 450px;
+    box-shadow: rgb(138, 110, 110);
+}
+.fooder img{
+    height: 120px;
+    width: 110px;
+    border-radius: 50%;
+
+}
+.cart-container{
+    border: 5px dimgrey;
+}
+.btn-regular{
+    background-color: rgb(173, 153, 39);
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}

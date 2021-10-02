@@ -1,0 +1,11 @@
+.header-container{
+    background-color: rgb(182, 127, 127);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    color: green;
+}
+span{
+    color: rgb(216, 42, 42);
+}
